@@ -1,21 +1,16 @@
 {
-  "name": "bitcoind-express",
-  "version": "0.0.1",
-  "description": "Conectar el rpc de bitcoin con el framework web llamado express",
+  "name": "bitcoin-express",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "bitcoin",
-    "bitcoin-cli",
-    "bitcoind"
-  ],
-  "author": "aitorjs <aitiba@gmail.com>",
-  "license": "GPL-3.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "bitcoin-core": "^3.0.0",
+    "bitcoin-core": "git://github.com/biteskola/bitcoin-core.git",
     "express": "^4.17.1"
   }
 }
